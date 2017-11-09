@@ -88,7 +88,7 @@ function CoiPixelBot() {
         CoiPixelBot.img = new Image();
         CoiPixelBot.img.crossOrigin = "Anonymous";
         CoiPixelBot.img.onload = function() {
-            CoiPixelBot.setState("Версия 3.8. Перезагрузил зону защиты.");
+            CoiPixelBot.setState("Версия 3.9. Перезагрузил зону защиты.");
             if (CoiPixelBot.inited) CoiPixelBot.getFullData();
         };
         CoiPixelBot.img.src = CoiPixelBot.urlGen.image();
