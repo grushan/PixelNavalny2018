@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Coi Pixel Bot
 // @namespace    http://tampermonkey.net/
-// @version      4.0
+// @version      4.1
 // @description  try to take over the world!
 // @author       Flyink13, DarkKeks
 // @match        https://pixel.vkforms.ru/*
@@ -88,7 +88,7 @@ function CoiPixelBot() {
         CoiPixelBot.img = new Image();
         CoiPixelBot.img.crossOrigin = "Anonymous";
         CoiPixelBot.img.onload = function() {
-            CoiPixelBot.setState("Версия 4.0. Перезагрузил зону защиты.");
+            CoiPixelBot.setState("Версия 4.1. Перезагрузил зону защиты.");
             if (CoiPixelBot.inited) CoiPixelBot.getFullData();
         };
         CoiPixelBot.img.src = CoiPixelBot.urlGen.image();
